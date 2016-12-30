@@ -1,0 +1,31 @@
+{
+  "name": "ephemeral-cache",
+  "version": "1.0.0",
+  "description": "Cache with timed expiry of contents",
+  "main": "index.js",
+  "dependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "sinon": "^1.17.6"
+  },
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinpit/ephemeral-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "timeout",
+    "expiry"
+  ],
+  "author": "coinpit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinpit/ephemeral-cache/issues"
+  },
+  "homepage": "https://github.com/coinpit/ephemeral-cache#readme"
+}
