@@ -1,6 +1,6 @@
 {
   "name": "ephemeral-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache with timed expiry of contents",
   "main": "index.js",
   "dependencies": {
