@@ -1,6 +1,6 @@
 {
   "name": "ephemeral-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cache with timed expiry of contents",
   "main": "index.js",
   "dependencies": {
@@ -8,10 +8,12 @@
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
     "sinon": "^1.17.6"
   },
   "scripts": {
-    "test": "mocha specs"
+    "test": "mocha specs/",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha specs"
   },
   "repository": {
     "type": "git",
