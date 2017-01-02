@@ -1,8 +1,8 @@
 {
   "name": "ephemeral-cache",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Cache with timed expiry of contents",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "expect.js": "^0.3.1"
   },
